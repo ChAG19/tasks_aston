@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Main {
 
@@ -14,5 +13,9 @@ public class Main {
                 "+79087650907", 30000, 29);
         list_of_employee[4] = new Employee("Андреев Андрей Андреевич", "Администратор", "andreev123@mail.ru",
                 "+79207098782", 40000, 31);
+
+        Park park = new Park("Остров Мечты", 2);
+        park.getAttractions();
     }
+
 }
